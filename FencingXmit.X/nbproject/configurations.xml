@@ -43,7 +43,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.0.71"/>
+        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.1.82"/>
       </packs>
       <compileType>
         <linkerTool>
@@ -590,6 +590,9 @@
                   value=""/>
         <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
       </Simulator>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+      </XC8-CO>
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
         <property key="gcc-opt-driver-new" value="true"/>
@@ -611,6 +614,7 @@
                   value="Press to browse for a specific firmware version"/>
         <property key="ToolFirmwareOption.UpdateOptions"
                   value="ToolFirmwareOption.UseLatest"/>
+        <property key="communication.activationmode" value="nohv"/>
         <property key="communication.interface"
                   value="${communication.interface.default}"/>
         <property key="communication.speed" value="${communication.speed.default}"/>
@@ -629,6 +633,7 @@
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7ff"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoImageName" value="FencingXmit_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.ledbrightness" value="5"/>
@@ -647,6 +652,7 @@
         <property key="programoptions.programcalmem" value="false"/>
         <property key="programoptions.programuserotp" value="false"/>
         <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="ptgSendImage" value="true"/>
         <property key="voltagevalue" value="5.0"/>
       </pk4hybrid>
     </conf>

@@ -70,6 +70,7 @@ OBJECTFILES=${OBJECTDIR}/main.p1 ${OBJECTDIR}/_ext/248165411/nRF24L01P.p1
 SOURCEFILES=main.c ../../drivers/nrf24L01P/nRF24L01P.c
 
 
+
 CFLAGS=
 ASFLAGS=
 LDLIBSOPTIONS=
@@ -167,11 +168,3 @@ endif
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r build/default
 	${RM} -r dist/default
-
-# Enable dependency checking
-.dep.inc: .depcheck-impl
-
-DEPFILES=$(shell mplabwildcard ${POSSIBLE_DEPFILES})
-ifneq (${DEPFILES},)
-include ${DEPFILES}
-endif
