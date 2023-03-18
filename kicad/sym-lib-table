@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name FencingScoreXmit-rescue)(type Legacy)(uri ${KIPRJMOD}/FencingScoreXmit-rescue.lib)(options "")(descr ""))
-  (lib (name DavidsMakerWorks_Custom)(type Legacy)(uri ${KIPRJMOD}/../../kicad-libraries/DavidsMakerWorks_Custom.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "FencingScoreXmit-rescue")(type "KiCad")(uri "${KIPRJMOD}/FencingScoreXmit-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "DavidsMakerWorks_Custom")(type "Legacy")(uri "${KIPRJMOD}/../../kicad-libraries/DavidsMakerWorks_Custom.lib")(options "")(descr ""))
 )
